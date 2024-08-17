@@ -1,0 +1,311 @@
+h1{
+    color: red;
+}
+.main{
+    background-color: black;
+    background-image: url("US-en-20240805-POP_SIGNUP_TWO_WEEKS-perspective_WEB_99b9a7c9-7791-4a48-b335-09e8ee246500_medium.jpg");
+    
+}
+.container{
+    background-size: cover;
+    height: 100vh;
+    background-image:radial-gradient(transparent,transparent,black,black) ;
+    opacity: 0.9;
+    text-align: center;
+    padding-left: 30px;
+    padding-right: 30px;
+    word-spacing: 10px;
+
+}
+body{
+    margin: 0px;
+    background-color: black;
+}
+.nav-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 20px;
+}
+.Nav-buttons{
+    padding-top: 10px;
+    display: flex;
+    flex-direction: row;
+    
+}
+.select-button{
+    height: 5vh;
+    width: 14vw;
+    margin-right: 20px;
+    background-color: transparent;
+    border: 1px solid white;
+    color: white;
+    cursor: pointer;
+   
+}
+.net-logo{
+    height:9vh;
+    width:14vw;
+    padding-top: 2px;
+    color: red;
+    padding-left: 10px;
+}
+.sign{
+
+    height: 5vh;
+    width: 10vw;
+    border-width: 0px;
+    cursor: pointer;
+    padding-right: 20px;
+
+    text-align: center;
+    background-color: red;
+    color: white;
+    border: 2px solid red;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, border 0.3s ease;
+}
+
+.sign:hover{
+
+    background-color: white;
+    color: red;
+    border: 2px solid darkred;
+}
+
+
+.first-container h1{
+    font-size: 40px;
+    color:white;
+}
+.first-container h2{
+    font-size: 20px;color:white;word-spacing:2px;font-weight:500;
+}
+.first-container p{
+ font-size: 20px;color:white;word-spacing:2px;font-weight:500;
+}
+.buttons {
+    display: flex;
+    flex-direction: row;
+}
+.buttons input{
+    height:6vh;
+    width: 30vw;
+    margin-bottom: 20px;
+}
+.buttons button{
+    font-size: 20px;
+    width: 30vw;
+    text-align: center;
+    background-color: red;
+    color: white;
+    border: 2px solid red;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, border 0.3s ease;
+
+}
+
+.buttons button:hover{
+
+    background-color: white;
+    color: red;
+    border: 2px solid darkred;
+}
+
+.line{
+    border: 3px solid rgba(248, 248, 255, 0.703);
+    width: 90vw;
+}
+
+
+.second-container{
+    height: 100vh;
+    background-color: black;
+    margin-top: 0px;
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.link-container{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    margin-left: 30px;
+    height: 90vh;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+.list{
+
+    display: flex;
+    flex-direction: column;
+
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+@media (max-width: 460px) {
+    .first-container h1 {
+        font-size: 1.7rem;
+        color: white;
+        word-spacing: 0.2px;
+    }
+
+    .first-container h2 {
+        font-size: 1.4rem;
+    }
+     
+    .first-container p {
+        font-size: 1rem;
+        word-spacing: 0.2px;
+    }
+    .buttons input{
+        height:7vh;
+        width: 60vw;
+        margin-bottom: 20px;
+        margin-top: 40px;
+    }
+
+    .buttons button{
+        width: 40vw;
+        height: 5vh;
+        border-radius: 5px;
+        font-size: 18px;
+        color: white;
+    }
+
+    .buttons {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        
+    }
+    .link-container li{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding-left: 10px;
+    }
+
+    .sign{
+        font-size: 10px;
+        width: 15vw;
+        text-align: center;
+    }
+    .select-button{
+        width: 20vw;
+    }
+    .net-logo{
+        width: 18vw;
+        height: 5vh;
+    }
+    .line{
+        
+    border: 3px solid rgba(248, 248, 255, 0.703);
+    width: 80vw;
+    margin-right: 10px;
+    }
+    .second-container{
+        display: flex;
+        flex-direction:column ;
+    }
+}
+
+
+.span-head{
+   color: white;
+   font-size: 20px; 
+}
+.first-container{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    text-indent: 30px;
+    height: 80vh;
+    margin: 0px 10px;
+    padding-bottom: 40px;
+}
+.email{
+    
+    height: 7vh;
+    width: 24vw;
+    margin-right: 20px;
+    background-color: gray;
+    border: 1px solid white;
+    color: white;
+    
+    padding-left: 20px;
+    font-size: 20px;
+
+}
+.get{
+    
+    height: 7vh;
+    width: 14vw;
+    color: white;
+    background-color: red;
+    border-width: 0px;
+    font-weight: 600;
+    font-size: 20px;
+
+
+    
+}
+::placeholder{
+    color: rgb(244, 232, 240);
+    padding-left: 20px;
+    font-size: 20px;
+}
+
+
+.card{
+    height: 7vh;
+    width: 60vw;
+    background-color: rgba(241, 238, 234, 0.522);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom:10px ;
+    border-radius: 10px;
+    text-align: center;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    word-spacing: 10px;
+    padding-left: 20px;
+    
+
+}
+.btn{
+    background-color: transparent;
+    width: 0px;
+    border: 0px;
+}
+.span-link{
+    color: white;
+    list-style-type: none;
+    text-decoration: underline;
+    margin-bottom: 5px;
+    font-size: 20px;
+}
+.frequently-container{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
